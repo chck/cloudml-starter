@@ -5,6 +5,9 @@ python:
 cache:
   - pip
 
+before_install:
+  - pip install tensorflow
+
 install:
   - pip install -e '.[dev]'
   - pip install -e .
