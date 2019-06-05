@@ -10,7 +10,4 @@ Python==3.5.*
 # Install dependencies
 pip install -e '.[dev]'
 pip install -e .
-
-# Emit release tag
-python setup.py release
 ```
