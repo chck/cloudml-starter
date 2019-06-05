@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.5"
+
+cache:
+  - pip
+
+install:
+  - pip install -e '.[dev]'
+  - pip install -e .
+
+script:
+  - python setup.py release
