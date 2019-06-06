@@ -1,16 +1,15 @@
 language: python
 python:
-  - "3.5"
-
+- '3.5'
 cache:
-  - pip
-
+- pip
 before_install:
-  - pip install tensorflow
-
+- pip install tensorflow
 install:
-  - pip install -e '.[dev]'
-  - pip install -e .
-
+- pip install -e '.[dev]'
+- pip install -e .
 script:
-  - python setup.py release
+- python setup.py release
+env:
+  global:
+    secure: DpmB7Nx+wCc076ZCLijNm17A37XmERD/U7TnXrESQKFyP27BvBdJkKyLAV29rtn/4PkOeLwNpD/gQlNcDDGmth03HJepIujK4sEa3by9O22mvQdjdPXqfq5jOB5jZ0bPjjY2KziP+/aH675o8ETBm9561lnrCTQu8uBbWkDZEG2RxmJqMF+HaSji5YSta0BSuSmYAg5ThT7PaacFrMZEThQG4IZ/bKpAFSePjzSdCozC+IN2bxrTe+PG+TDNJ0KxFuLnfILSabav11H/74lBBWjya0eYcl/3aVn6/qFh9XTA7WzAt4pnPlLlc9kWZy4hNVl/fOB7EAYAV7VVFl/HZEHf3bW5VBX/vpzhFw7KptcgrqCB6/jJHwfMZqtdwKMPZxa3U9nT25VfPIm3EhOM6GNsKnf+1aEl1gDz7gWurEB7yiqQdp44EeP6KFIOQ8eAYWgcs8CtgBQRXNQlWBhaNh82ayShiax66XrOda4xEFiUlVOcJJ7mh7N8WBlOWk7j7EYlgB41PRw14N6jCh6EZ0bkndBnB3V5UTBJ2jDA0BrPWCFKBfcBpCcr+tMUBKYntQT9rNekXoRRitwV0rHSM3DuR99vD2YkmEySEA6TA6Dwg483OCskY1aCxz7MjyXEeecKluPPjgE/adWXZmh6OtqizdAnHi0T45liCqGkr6E=
