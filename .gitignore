@@ -113,3 +113,6 @@ dmypy.json
 
 # PyCharm
 .idea/
+
+# direnv
+.envrc
