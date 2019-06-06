@@ -1,5 +1,5 @@
 # cloudml-starter: A lightweight foundation for cloud ml
-[![Build Status](https://travis-ci.org/chck/cloudml-starter.svg?branch=master)](https://travis-ci.org/chck/cloudml-starter)
+[![Build Status](https://travis-ci.com/chck/cloudml-starter.svg?branch=master)](https://travis-ci.com/chck/cloudml-starter)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/chck/cloudml-starter/blob/master/LICENSE)
 
 ## Requirements
