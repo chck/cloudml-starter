@@ -8,6 +8,6 @@ Python==3.5.*
 ## Setup
 ```bash
 # Install dependencies
-pip install -e '.[dev]'
-pip install -e .
+pipenv install -e '.[dev]' -d
+pipenv install -e .
 ```
